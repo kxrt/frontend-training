@@ -1,0 +1,136 @@
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #141518;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+}
+
+.boundingBox {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 35px;
+  border-radius: 30px;
+  height: 345px;
+  width: 350px;
+  background: radial-gradient(300px at 50% 0%, #262d36 0%, #1a202a 100%);
+}
+
+.star {
+  background-color: hsl(213, 19%, 18%);
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+}
+
+.thanksImage {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.questionText {
+  font-size: 28.5px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.thanksText {
+  font-size: 28.5px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.descriptionText {
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+  line-height: 20px;
+}
+
+.thanksDescriptionText {
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+  line-height: 20px;
+  text-align: center;
+}
+
+.selectionText {
+  background-color: hsl(213, 19%, 18%);
+  color:hsl(25, 97%, 53%);
+  padding-inline: 20px;
+  padding-block: 5px;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-block: 30px;
+}
+
+.ratingCircles {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 30px;
+}
+
+.ratingButton {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(216, 12%, 54%);
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: 0px;
+}
+
+.ratingButton:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.ratingButton:focus {
+  background-color: hsl(216, 12%, 54%);
+  color: white;
+}
+
+.ratingButton::selection {
+  background-color: transparent;
+}
+
+.submitButton {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  width: calc(100%);
+  border-radius: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-block: 15px;
+}
+
+.submitButton:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
