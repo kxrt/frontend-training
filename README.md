@@ -1,6 +1,6 @@
 # Frontend Training
 
-Hi! This repository contains my solutions to various training challenges on [Frontend Mentor](https://www.frontendmentor.io/).
+This repository contains my solutions to various training challenges on [Frontend Mentor](https://www.frontendmentor.io/).
 
 ### 1. [Interactive Rating Component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
 
