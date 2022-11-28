@@ -1,11 +1,17 @@
 import React from "react";
-import Feedback from "./feedback/Feedback";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Feedback from "./pages/feedback/Feedback";
+import Landing from "./pages/landing/Landing";
 
 function App() {
   return (
-    <div>
-      <Feedback />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/feedback" element={<Feedback />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

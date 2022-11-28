@@ -25,10 +25,18 @@
   flex-direction: column;
   color: white;
   padding: 35px;
+  margin: 20px;
   border-radius: 30px;
   height: 345px;
   width: 350px;
   background: radial-gradient(300px at 50% 0%, #262d36 0%, #1a202a 100%);
+}
+
+@media (max-width: 767.98px) {
+  .boundingBox {
+    height: 375px;
+    width: 275px;
+  }
 }
 
 .star {
