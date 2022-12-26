@@ -8,29 +8,31 @@ import BgMobile from "./images/pattern-background-mobile.svg";
 const Order = () => {
   return (
     <div className={styles.page}>
-      <img src={BgDesktop} alt="background" />
+      {/* <img src={BgDesktop} alt="background" /> */}
       <div className={styles.boundingBox}>
         <div className={styles.heroImage}>
           <img src={Hero} alt="Hero" />
         </div>
         <div className={styles.informationBox}>
           <div className={styles.heading}>Order Summary</div>
-          <div className={styles.description}>
+          <div className={styles.orderDescription}>
             You can now listen to millions of songs, audiobooks, and podcasts on
             any device anywhere you like!
           </div>
           <div className={styles.orderDetails}>
-            <div className={styles.orderDetailsIcon}>
-              <img src={Music} alt="Musical Note" />
+            <div className={styles.orderDetailsLeft}>
+              <div className={styles.orderDetailsIcon}>
+                <img src={Music} alt="Musical Note" />
+              </div>
+              <div className={styles.orderDetailsText}>
+                <div className={styles.orderName}>Annual Plan</div>
+                <div className={styles.orderPrice}>$59.99/year</div>
+              </div>
             </div>
-            <div className={styles.orderDetailsText}>
-              <div className={styles.orderName}>Annual Plan</div>
-              <div className={styles.orderPrice}>$59.99/year</div>
-            </div>
-            <div className={styles.orderChange}>Change</div>
+            <button className={styles.orderChangeButton}>Change</button>
           </div>
-          <div className={styles.proceedButton}>Proceed to Payment</div>
-          <div className={styles.cancelButton}>Cancel Order</div>
+          <button className={styles.proceedButton}>Proceed to Payment</button>
+          <button className={styles.cancelButton}>Cancel Order</button>
         </div>
       </div>
     </div>

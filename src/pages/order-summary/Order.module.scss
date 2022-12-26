@@ -16,6 +16,127 @@
   align-items: center;
   height: 100vh;
   background-color: #141518;
-  font-family: "Overpass", sans-serif;
-  font-weight: 400;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+}
+
+.boundingBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  width: 450px;
+  overflow: hidden;
+}
+
+.informationBox {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  font-size: 28.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.orderDescription {
+  font-weight: 500;
+  margin-inline: 50px;
+  margin-bottom: 20px;
+  color: hsl(224, 23%, 55%);
+}
+
+.orderDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  width: 70%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.orderDetailsIcon {
+  margin-right: 20px;
+}
+
+.orderDetailsIcon img {
+  display: block;
+}
+
+.orderDetailsLeft {
+  display: flex;
+  flex-direction: row;
+}
+
+.orderDetailsText {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.orderName {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.orderPrice {
+  color: hsl(224, 23%, 55%);
+}
+
+.orderChangeButton {
+  all: unset;
+  color :hsl(245, 75%, 52%);
+  text-decoration: underline;
+  font-weight: 900;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.orderChangeButton:hover {
+  text-decoration: none;
+  color: hsl(245, 83%, 68%);
+}
+
+.proceedButton {
+  all: unset;
+  background-color: hsl(245, 75%, 52%);
+  width: 79%;
+  color: white;
+  font-size: 14px;
+  font-weight: 900;
+  margin-block: 20px;
+  padding-block: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 20px hsl(245, 83%, 88%);
+  cursor: pointer;
+}
+
+.proceedButton:hover {
+  background-color: hsl(245, 83%, 68%);
+}
+
+.cancelButton {
+  all: unset;
+  width: 79%;
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.cancelButton:hover {
+  color: hsl(223, 47%, 23%);
 }
