@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Feedback from "./pages/feedback/Feedback";
 import Landing from "./pages/landing/Landing";
+import Feedback from "./pages/feedback/Feedback";
+import Order from "./pages/order-summary/Order";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/feedback" element={<Feedback />} />
+        <Route path="/order-summary" element={<Order />} />
       </Routes>
     </BrowserRouter>
   );

@@ -8,6 +8,15 @@ const challenges = [
     link: "/feedback",
     challenge: "https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI",
   },
+  {
+    title: "Order Summary",
+    description:
+      "This challenge was to create an order summary component that displays the user's order details. " +
+      "Details include the order's name and the annual price. There is a button that allows the user to change their plans." +
+      "The component includes separate buttons to proceed with payment and cancel the order.",
+    link: "/order-summary",
+    challenge: "https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj",
+  }
 ];
 
 export default challenges;
