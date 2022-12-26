@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Landing.module.scss";
 import challenges from "./challenges.js";
 
 const Landing = () => {
+  useEffect(() => {
+    document.title = "kxrt | Frontend Training";
+  });
+
   return (
     <div className={styles.page}>
       <h1 className={styles.heading}>

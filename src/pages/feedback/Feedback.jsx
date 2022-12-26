@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Feedback.module.scss";
 import Star from "./images/icon-star.svg";
 import Thanks from "./images/illustration-thank-you.svg";
 
 const Feedback = () => {
+  useEffect(() => {
+    document.title = "Feedback";
+  });
+
   const [submitted, setSubmitted] = useState(false);
   const [rating, setRating] = useState(0);
 

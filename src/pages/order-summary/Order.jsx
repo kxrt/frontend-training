@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import styles from "./Order.module.scss";
 import Music from "./images/icon-music.svg";
 import Hero from "./images/illustration-hero.svg";
@@ -6,6 +6,10 @@ import BgDesktop from "./images/pattern-background-desktop.svg";
 import BgMobile from "./images/pattern-background-mobile.svg";
 
 const Order = () => {
+  useEffect(() => {
+    document.title = "Order Summary";
+  }, []);
+
   return (
     <div className={styles.page}>
       {/* <img src={BgDesktop} alt="background" /> */}
