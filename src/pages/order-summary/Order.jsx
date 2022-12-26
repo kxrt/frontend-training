@@ -12,7 +12,9 @@ const Order = () => {
 
   return (
     <div className={styles.page}>
-      {/* <img src={BgDesktop} alt="background" /> */}
+      <div className={styles.bgSvg}>
+        <img src={BgDesktop} alt="Background Illustration" />
+      </div>
       <div className={styles.boundingBox}>
         <div className={styles.heroImage}>
           <img src={Hero} alt="Hero" />

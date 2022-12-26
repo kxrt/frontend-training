@@ -5,7 +5,7 @@ import Thanks from "./images/illustration-thank-you.svg";
 
 const Feedback = () => {
   useEffect(() => {
-    document.title = "Feedback";
+    document.title = "Interactive Feedback";
   });
 
   const [submitted, setSubmitted] = useState(false);

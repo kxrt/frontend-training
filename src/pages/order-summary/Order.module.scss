@@ -15,9 +15,15 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #141518;
+  background-color: hsl(225, 100%, 94%);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
+  position: relative;
+}
+
+.bgSvg {
+  position: absolute;
+  top: 0;
 }
 
 .boundingBox {
@@ -28,6 +34,7 @@
   border-radius: 30px;
   width: 450px;
   overflow: hidden;
+  position: relative;
 }
 
 .informationBox {
